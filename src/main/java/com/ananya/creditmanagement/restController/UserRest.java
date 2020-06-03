@@ -39,6 +39,13 @@ public class UserRest {
 		userService = theService;
 	}
 	@GetMapping("/")
+public String index() {
+		
+		
+		return "home";
+		}
+	
+	@GetMapping("/user-list")
 	public String listCustomer(Model theModel) {
 		
 		
@@ -109,18 +116,18 @@ public String save( @PathVariable("id")Long id,@PathVariable("name")String name,
 			@RequestParam(value="amount", required=false)int amount ) {
 	User user1 =userService.findById(id);
 		User user2 =userService.findByName(name);
-		History user3 =userService.findBySender(user1.getName(),user2.getName(),amount);
+		
 		int a1=user1.getCurrentCredit();
 		int a2=user2.getCurrentCredit();
-		theModel.addAttribute("user1",user1);
-		theModel.addAttribute("user2",user2);
+	
 		if(amount<1||amount>=5000||a1==0||(user1.getId()==user2.getId())) {
 			return "amount";
 		}
-		else {
+		else {	theModel.addAttribute("user1",user1);
+		theModel.addAttribute("user2",user2);
 	
 		//userService.update(user2.getId(),user.getAmount());
-	
+			History user3 =userService.findBySender(user1.getName(),user2.getName(),amount);
 		
 		System.out.println(user1);
 		System.out.println(user2);
