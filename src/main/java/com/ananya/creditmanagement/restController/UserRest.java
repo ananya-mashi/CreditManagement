@@ -121,7 +121,7 @@ public String save( @PathVariable("id")Long id,@PathVariable("name")String name,
 		int a2=user2.getCurrentCredit();
 	
 		if(amount<1||amount>=5000||a1==0||(user1.getId()==user2.getId())) {
-			return "transferTo";
+			return "home";
 		}
 		else {	theModel.addAttribute("user1",user1);
 		theModel.addAttribute("user2",user2);
