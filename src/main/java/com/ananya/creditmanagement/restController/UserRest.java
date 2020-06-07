@@ -107,7 +107,8 @@ return "oneUser";
 		theModel.addAttribute("user",user2);
 		System.out.println(user1);
 		System.out.println(user2);
-		
+		if(user1.getName()==user2.getName())
+			return "oneUser";
 	return "amount";			
 	}
 	@GetMapping("/save/{id}/{name}")
