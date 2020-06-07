@@ -8,46 +8,43 @@
 <head><title>Credit-management-WebApp</title>
 <link href="https://lh3.googleusercontent.com/proxy/a9u9jCBgCgbyT7sIE7W8rEjhIkYEO5a1tP148SWLdttQqS6JnnxiBDuepsYdrZKflTT
 8blTKFujg2l-j725ap3XQMrNMWhuXh7eAGXg5YbxZpRotmPeGT9ErqBlPy0vLvVGl-mtUVlW_5xKFAcczsLUG5lrkx8Fl"
- rel="icon"></head>
+ rel="icon">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.text{
+font-size:22px;
+}
+</style>
+
+</head>
 <body style=" background: url('https://www.inner.org/wp-content/uploads/2014/04/blue-waves.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 ">
-<h2 class="text-white bg-dark"><marquee direction="left" Scrollamount=20 style="position:relative;">
-Welcome to Credit management Dynamic Website
+<h2 class="text-white bg-dark" style="font-size:2.8em;"><marquee direction="left" Scrollamount=20 style="position:relative;">
+We are always here to serve you better
 </marquee></h2>
-<h1 style="font-size:1.8em; color:black;">
-
-<br><br>
-What is a credit transfer?
+<h2 style="font-size:2.8em; color:darkblue; padding-left:30px;" 
+class="d-flex justify-content-center text"><br>
+Welcome to Credit Management Web Application </h2>
+<h3 style="font-size:1.8em; color:blue; padding-left:50px;" 
+class="d-flex justify-content-center text">
+Simple | Secure | Best | Reliable</h3>
+<br><br><br>
+<footer>
 <br>
-<br>
-In education, 
-it means transferring score from one to another course or a college, etc.
-<br>
-<br>
-<br>
-In Banking,
- it means transferring of money from an account to another account.
-<br>
-<br>
-If you are talking about credit card, 
-it means that paying off an existing credit card balance with a personal loan or from another credit card account.
- This is called Balance transfer.
- <br>
- <br>
- <br>
- Here is an example of Banking.....</h1>
-<br>
-<br>
-<div class="d-flex justify-content-center"> 
-<a type="button" class="btn btn-primary btn-lg" href="/user-list">user list</a>
+<div class="d-flex justify-content-center text"> 
+<a type="button" class="btn btn-primary btn-lg text" href="/user-list">   Start   </a>
 </div><br>
 <br>
+<h3 style="font-size:1.2em; color:blue; padding-left:10px; bottom:10;position:fixed;" class="d-flex justify-content-center text">
 
+Site Map :
 
+ Start --> View User --> Transfer --> Transfer To --> Enter Amount --> Submit
+</h3></footer>
 <footer style="text-align:center;width:100%;left:0; bottom:0;position:fixed; background-color:blue; color:white;">
 
 
