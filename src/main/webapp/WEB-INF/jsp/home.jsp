@@ -17,19 +17,16 @@ font-size:22px;
 </style>
 
 </head>
-<body style=" background: url('https://www.inner.org/wp-content/uploads/2014/04/blue-waves.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+<body style=" background:black; 
+ 
 ">
-<h2 class="text-white bg-dark" style="font-size:2.8em;"><marquee direction="left" Scrollamount=20 style="position:relative;">
+<h2 style="font-size:2.8em;color:aqua;"><marquee direction="left" Scrollamount=20 style="position:relative;">
 We are always here to serve you better
 </marquee></h2>
-<h2 style="font-size:2.8em; color:darkblue; padding-left:30px;" 
+<h2 style="font-size:2.8em; color:aqua; padding-left:30px;" 
 class="d-flex justify-content-center text"><br>
 Welcome to Credit Management Web Application </h2>
-<h3 style="font-size:1.8em; color:blue; padding-left:50px;" 
+<h3 style="font-size:1.5em; color:aqua; padding-left:50px;" 
 class="d-flex justify-content-center text">
 Simple | Secure | Best | Reliable</h3>
 <br><br><br>
@@ -39,7 +36,7 @@ Simple | Secure | Best | Reliable</h3>
 <a type="button" class="btn btn-primary btn-lg text" href="/user-list">   Start   </a>
 </div><br>
 <br>
-<h3 style="font-size:1.2em; color:blue; padding-left:10px; bottom:10;position:fixed;" class="d-flex justify-content-center text">
+<h3 style="font-size:1.2em; color:aqua; padding-left:10px; bottom:10;position:fixed;" class="d-flex justify-content-center text">
 
 Site Map :
 
